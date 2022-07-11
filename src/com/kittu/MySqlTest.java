@@ -29,4 +29,8 @@ public class MySqlTest {
     select count(state&city) from address_book;
 
     select * from address_book order by first_name;
+
+    alter table address_book add column name varchar(55);
+
+    update address_book set name = "Profession" where first_name = "Kittu";
 }
