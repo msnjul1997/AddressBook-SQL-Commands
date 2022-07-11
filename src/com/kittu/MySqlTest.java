@@ -17,5 +17,6 @@ public class MySqlTest {
 
     select * from address_book;
     insert into address_book values("Santhosh","Naik","Colony","Hyd","TS",509338,9494291232,"msnjul1997@gmail.com");
+    update address_book set city ="Secunderabad" where first_name = "Santhosh";
 
 }
