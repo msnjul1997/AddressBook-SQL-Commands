@@ -25,4 +25,6 @@ public class MySqlTest {
     select * from address_book where city = "Hyd" or state = "TS";
 
     select count(state&city) from address_book;
+
+    select * from address_book order by first_name;
 }
