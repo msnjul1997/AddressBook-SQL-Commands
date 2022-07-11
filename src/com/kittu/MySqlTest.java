@@ -17,8 +17,12 @@ public class MySqlTest {
 
     select * from address_book;
     insert into address_book values("Santhosh","Naik","Colony","Hyd","TS",509338,9494291232,"msnjul1997@gmail.com");
-    
+
     SET SQL_SAFE_UPDATES = 0;
     update address_book set city="Sec" where first_name = "Santhosh";
     delete from address_book  where first_name = "Santhosh";
+
+    select * from address_book where city = "Hyd" or state = "TS";
+
+    select count(state&city) from address_book;
 }
