@@ -17,6 +17,8 @@ public class MySqlTest {
 
     select * from address_book;
     insert into address_book values("Santhosh","Naik","Colony","Hyd","TS",509338,9494291232,"msnjul1997@gmail.com");
+    insert into address_book values("Kittu","Ms","Colony Address","Sec","TS",509338,9494291222,"msnjul19@gmail.com");
+    insert into address_book values("Naik","Mudavath","Colony Address","Mbnr","TS",509336,9494291252,"msnjul@gmail.com");
 
     SET SQL_SAFE_UPDATES = 0;
     update address_book set city="Sec" where first_name = "Santhosh";
