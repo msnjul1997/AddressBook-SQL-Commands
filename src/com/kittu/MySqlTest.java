@@ -33,4 +33,6 @@ public class MySqlTest {
     alter table address_book add column name varchar(55);
 
     update address_book set name = "Profession" where first_name = "Kittu";
+
+    insert into address_book values("Kittu","Naik","Colony Address","Hyd","Hyd",509336,9494292232,"kittumsn@gmail.com","Family");
 }
