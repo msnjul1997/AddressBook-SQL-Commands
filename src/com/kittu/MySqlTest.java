@@ -20,5 +20,5 @@ public class MySqlTest {
     insert into address_book values("Kittu","Naik","Colony Address","Sec","TS",509339,9494291239,"msnjul19@gmail.com");
     SET SQL_SAFE_UPDATES = 0;
     update address_book set city="Sec" where first_name = "Santhosh";
-
+    delete from address_book  where first_name = "Avani";
 }
