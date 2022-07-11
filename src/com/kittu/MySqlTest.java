@@ -15,4 +15,7 @@ public class MySqlTest {
     phone_number long,
     email varchar(20));
 
+    select * from address_book;
+    insert into address_book values("Santhosh","Naik","Colony","Hyd","TS",509338,9494291232,"msnjul1997@gmail.com");
+
 }
